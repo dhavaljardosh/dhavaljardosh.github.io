@@ -229,6 +229,14 @@
   color:#0884d5;
 }
 
+.social-icons ul li a:hover .fa-github {
+  color:#000; 
+}
+
+.social-icons ul li a:hover .fa-stack-overflow {
+  color:#FF4F40;
+}
+
 .social-icons ul li a:hover .fa-twitter {
   color:#2AA7DC;
 }
