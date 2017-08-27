@@ -230,7 +230,7 @@
 }
 
 .social-icons ul li a:hover .fa-github {
-  color:#000; 
+  color:#000;
 }
 
 .social-icons ul li a:hover .fa-stack-overflow {
@@ -550,15 +550,30 @@ ul.sub-menu {
 *******Home Page******
 **************************/
 #home-slider {
-  background: url(../images/home/slider-bg.png) 0 100% repeat-x;
+  background: url(../images/home/slider.png) 100% 50% repeat-x;
+  background-position: right;
   position: relative;
+}
+
+@media only screen and (max-width: 900px)
+{
+  #home-slider .hideme{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px)
 {
-    #home-slider .hideme{
-      display: none;
+
+      #header .navbar-nav.navbar-right li
+      {
+          padding:10px;
+      }
+
+    #home-slider{
+      background-position: center;
     }
+
     #home-slider .slide-text{
       top:0px;
     }
@@ -701,6 +716,8 @@ ul.sub-menu {
 
 .single-service img {
   margin-bottom: 35px;
+  width: 300px;
+  min-height:300px;
 }
 
 .single-service .fold {
@@ -757,6 +774,12 @@ ul.sub-menu {
 
 #clients{
   padding-bottom: 45px;
+}
+
+#excited-about{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 5px;
 }
 
 .clients {
